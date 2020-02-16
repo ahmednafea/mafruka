@@ -1,0 +1,2 @@
+# mafruka
+Mafruka Flutter App
