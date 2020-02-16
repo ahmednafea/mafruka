@@ -1,0 +1,33 @@
+name: Mafruka
+description: Mafruka is a cooking app, try to learn cooking and teach others.
+version: 1.0.0
+
+dependencies:
+  cupertino_icons: ^0.1.3
+  google_fonts: ^0.3.8
+  intl: ^0.16.1
+
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  redux: ^4.0.0
+  flutter_redux: ^0.6.0
+  flutter_launcher_icons: ^0.7.4
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/mafruka_logo_only.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/mafruka_logo.png
+    - assets/mafruka_logo_only.png
+    - assets/locale/localization_ar.json
+    - assets/locale/localization_en.json
